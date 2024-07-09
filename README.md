@@ -1,6 +1,6 @@
 # @1nf053c/mapbox-map
 
-![@1nf053c/mapbox-map](https://github.com/1nf053c/mapbox-map/@1nf053c__mapbox-map.png)
+<img alt="screenshot of @1nf053c/mapbox-map reactjs component" src="https://github.com/1NF053C/mapbox-map/blob/260260e388031f06e0c9d4b27008175eab3dc9c6/%401nf053c__mapbox-map.png" />
 
 ### Getting Started
 
