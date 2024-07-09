@@ -1,5 +1,7 @@
 # @1nf053c/mapbox-map
 
+a Reactjs component that renders a mapbox map
+
 <img alt="screenshot of @1nf053c/mapbox-map reactjs component" src="https://github.com/1NF053C/mapbox-map/blob/260260e388031f06e0c9d4b27008175eab3dc9c6/%401nf053c__mapbox-map.png" />
 
 ### Getting Started
@@ -7,6 +9,7 @@
 ```sh
 npm i @1nf053c/mapbox-map
 ```
+<a href="https://www.npmjs.com/package/@1nf053c/mapbox-map">https://www.npmjs.com/package/@1nf053c/mapbox-map</a>
 
 ```tsx
 "use client";
