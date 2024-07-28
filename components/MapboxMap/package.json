@@ -1,0 +1,40 @@
+{
+    "name": "@1nf053c/mapbox-map",
+    "version": "0.1.5",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/**/*",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "copycss": "copyfiles -u 1 ./src/**/*.css dist",
+        "prepublishOnly": "rm -f ./tsconfig.tsbuildinfo && rm -rf ./dist && npm run build && npm run copycss"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.12",
+        "@types/react": "^18.3.3",
+        "@types/uuid": "^10.0.0",
+        "copyfiles": "^2.4.1",
+        "typescript": "^5.5.4"
+    },
+    "description": "a reactjs component that renders a mapbox map centered on a given location",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/1NF053C/mapbox-map"
+    },
+    "keywords": [
+        "mapbox"
+    ],
+    "author": "1nf053c",
+    "license": "MIT",
+    "dependencies": {
+        "mapbox-gl": "^3.5.2",
+        "uuid": "^10.0.0"
+    }
+}
