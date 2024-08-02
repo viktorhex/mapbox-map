@@ -1,6 +1,6 @@
 {
     "name": "@1nf053c/mapbox-map",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
@@ -32,7 +32,7 @@
         "mapbox"
     ],
     "author": "1nf053c",
-    "license": "MIT",
+    "license": "please contact author to purchase a license",
     "dependencies": {
         "mapbox-gl": "^3.5.2",
         "uuid": "^10.0.0"
