@@ -20,15 +20,13 @@ export function MapboxMapContainer() {
 
     const config = {
         publicKey="YOUR_MAPBOX_PUBLIC_KEY",
-        startLng=50,
-        startLat=-51,
-        zoomLevel=12
+        coordinates={lng: 50, lat: -51}
+        zoomLevel=19
     }
 
     return <MapboxMap
         publicKey={config.publicKey}
-        startLng={config.startLng}
-        startLat={config.startLat}
+        coordinates={config.coordinates}
         zoomLevel={config.zoomLevel} 
     />
 }
@@ -56,10 +54,9 @@ export function MapboxMapContainer() {
 
     const config = {
         publicKey="YOUR_MAPBOX_PUBLIC_KEY",
-        startLng=50,
-        startLat=-51,
-        zoomLevel=12
-    };
+        coordinates={lng: 50, lat: -51}
+        zoomLevel=19
+    }
 
     const plugins = [MapboxMapAthleticsAdvisor, MapboxMapRestaurantAdvisor];
     
